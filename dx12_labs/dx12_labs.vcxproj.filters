@@ -36,4 +36,9 @@
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="shader.hlsl">
+      <Filter>src</Filter>
+    </CustomBuild>
+  </ItemGroup>
 </Project>
