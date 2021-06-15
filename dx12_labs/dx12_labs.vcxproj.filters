@@ -15,7 +15,25 @@
     <ClCompile Include="src\pch.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Scene.cpp">
+    <ClCompile Include="src\DXSample.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SwapChain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommandList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PipelineState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RaytracingSample.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,13 +50,40 @@
     <ClInclude Include="src\pch.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Scene.h">
+    <ClInclude Include="src\DXSample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Device.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SwapChain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CommandList.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PipelineState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DXRaytracingHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RaytracingSample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StepTimer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RaytracingHlslCompat.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="shader.hlsl">
+    <FxCompile Include="src\Raytracing.hlsl">
       <Filter>src</Filter>
-    </CustomBuild>
+    </FxCompile>
   </ItemGroup>
 </Project>
